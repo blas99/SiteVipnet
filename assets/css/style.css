@@ -30,10 +30,10 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
-.back-to-top {
+/*.back-to-top {
   position: fixed;
   visibility: hidden;
-  opacity: 0;
+  opacity: 0; 
   right: 15px;
   bottom: 15px;
   z-index: 996;
@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
-}
+} */
 .back-to-top i {
   font-size: 28px;
   color: #fff;
@@ -52,10 +52,33 @@ h1, h2, h3, h4, h5, h6 {
   background: #2194f7;
   color: #fff;
 }
-.back-to-top.active {
+
+
+.whatsapp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+
+.fa-whatsapp {
+  margin-top: 16px;
+}
+
+
+
+/*.back-to-top.active {
   visibility: visible;
   opacity: 1;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Preloader
