@@ -448,7 +448,7 @@ height: 60px;
 }
 @media (max-width: 768px), (max-height: 700px) {
   #hero {
-    height: 120vh;
+    height: 80vh;
     padding: 100px 0;
   }
   #hero h2 {
