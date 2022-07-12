@@ -491,7 +491,7 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .about {
-  padding: 140px 0;
+  padding-top: 15px;
   background: url("../img/about-bg.png") top center no-repeat;
   position: relative;
 }
@@ -566,7 +566,7 @@ section {
 .cta {
   background: linear-gradient(rgba(31,57,143,0.8), rgba(31,57,143, 0.9)), url("../img/bkg2.jpg") fixed center center;
   background-size: cover;
-  padding: 120px 0;
+  padding: 20px 0;
 }
 .cta h3 {
   color: #fff;
@@ -583,6 +583,7 @@ section {
 --------------------------------------------------------------*/
 
 #planos {
+  padding-top: 15px;
   margin-top: 60px;
 }
 
@@ -675,6 +676,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
+  padding-top: 15px;
   background: url("../img/contact-bg.png") left center no-repeat;
   position: relative;
 }
@@ -1269,7 +1271,7 @@ section {
 
 #footer .footer-top {
   background: #1f398f;
-  padding: 60px 0 30px 0;
+  padding: 0px 0 20px 0;
 }
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
